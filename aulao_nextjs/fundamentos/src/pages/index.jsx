@@ -21,11 +21,17 @@ export default function Inicio() {
       display:"flex",
       justifyContent:"center",
       alignItems:"center",
+      flexWrap:'wrap',
+      height:'100vh'
 
     }}>
-      <Navegador destino="/estiloso" texto="estiloso " />
-      <Navegador destino="/exemplo" texto="exemplo "/>
-      <Navegador destino="/jsx" texto="jsx "/>
+      <Navegador destino="/estiloso" texto="Estiloso " />
+      <Navegador destino="/exemplo" texto="Exemplo " cor="purple"/>
+      <Navegador destino="/jsx" texto="Jsx" cor="red"/>
+      <Navegador destino="/navegacao" texto="Navegacao #01" cor="orange"/>
+      <Navegador destino="/cliente/sp2/321" texto="Navegacao #02" cor="pink"/>
+      <Navegador destino="/estado" texto="Componente com estado" cor="gray"/>
+
     </div>
   )
 }
